@@ -1,0 +1,26 @@
+# Default settings for sync_threat_list.py (KEY=value, UTF-8).
+# Copy to sync_threat_list.default.var (gitignored) and/or pass:
+#   --var-file path\to\custom.var
+# The bundled default always loads first; a custom file overrides keys only.
+# CLI flags override merged VAR values when you pass them explicitly.
+#
+# SOURCE_FILE=              Required path to the incoming list
+# CURRENT_FILE=THREAT.txt   Path relative to REPO_DIR (or absolute)
+# REPO_DIR=                 Default: directory containing this script
+# GIT_COMMIT=true
+# GIT_PUSH=true
+# GIT_REMOTE=origin
+# GIT_BRANCH=main
+# GIT_COMMIT_MESSAGE=Update THREAT.txt
+# VERBOSE=false
+# DRY_RUN=false
+
+SOURCE_FILE=
+CURRENT_FILE=THREAT.txt
+GIT_COMMIT=true
+GIT_PUSH=true
+GIT_REMOTE=origin
+GIT_BRANCH=main
+GIT_COMMIT_MESSAGE=Update THREAT.txt
+VERBOSE=false
+DRY_RUN=false
