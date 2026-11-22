@@ -213,3 +213,4 @@
 2602:fa59:2:4538::1 # dag=THREAT|orig=2026-11-16|last=2026-11-16|cnt=1
 2602:fa59:2:65b6::1 # dag=THREAT|orig=2026-11-16|last=2026-11-16|cnt=1
 2602:fa59:2:80d9::1 # dag=THREAT|orig=2026-11-16|last=2026-11-16|cnt=1
+198.199.120.120 # dag=THREAT|orig=2026-11-22|last=2026-11-22|cnt=1
